@@ -1,0 +1,39 @@
+body {
+  background-image: url("7825852.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.centered-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 10%;
+  max-width: 600px; /* Adjust the maximum width as needed */
+  height: auto;
+  background: transparent;
+  backdrop-filter: blur(3px);
+  border-radius: 30px;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.centered-box h1 {
+  color: #fcfafa;
+  font-size: 4vw; /* Adjust the font size for both phones and PCs */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  position: absolute;
+  top: 10%; /* Adjust the top position for both phones and PCs */
+}
+
+.centered-box p {
+  color: #9a9a9a;
+  font-size: 2.5vw; /* Adjust the font size for both phones and PCs */
+  font-family: "Fira Sans", sans-serif;
+}
